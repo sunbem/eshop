@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* hero section */
+
+.hero-sec{
+    background: #FFFBF0;
+    box-shadow: 0px -4px 33.5px 0px rgba(0, 0, 0, 0.15);
+    height: 715px;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    align-items: center;
+    height: 60px;
+}
+
+.logo{
+    width: 295px;
+    height: 40px;
+    background-image: url(icons/logo.png);
+    background-size: cover;
+}
+
+.menu{
+    display: flex;
+    width: 700px;
+    justify-content:space-between;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: #3C3C3C;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.menu a:hover{
+    color: #A4BC46 ;
+}
+
+.main-hero{
+    width: 1200px;
+    height: 590px;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.hero-text,.hero-image{
+    width: 50%;
+    height: 100%;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.big-text1,.big-text2{
+    font-size: 80px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.big-text1{
+    color: #FABE4C;
+}
+
+.big-text2{
+    color: #363958;
+}
+
+.buy-btn{
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    box-shadow: 2px 1px 6.9px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-top: 25px;
+}
+
+.fa-solid{
+    margin-right: 10px;
+}
+
+.buy-btn:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    box-shadow: 0px -4px 9.8px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.img{
+    width: 550px;
+    height: 550px;
+    background-image: url(images/model.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    position: relative;
+    left: 20px;
+}
+
+.hero-image{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.span-text{
+    color: #3E3E3E;
+}
+
+
+/* header ends */
+/* main body */
+
+.main_body{
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.women-sec{
+    width: 1200px;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.product-w{
+    width:100%;
+    border: 0px solid black;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.women-sec h1{
+    margin-bottom: 25px;
+    font-size: 45px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 550;
+    color: #363958;
+    margin-left: 20px;
+}
+
+
+
+.pro-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+    width: 30%;
+    border: 0px solid black;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.pro-1 div{
+    width: 90%;
+    border: 0px solid black;
+}
+
+.pro1_img{
+    height: 70%;
+    background-image: url(images/pro1_img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin-top: 10px;
+
+}
+
+.pro1_details{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+.pro_name{
+    font-size: 26px;
+    font-weight: 550;
+    color: #363958;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.main_body { 
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+.pro1_price{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.pro1_price p{
+    font-size: 32px;
+    font-weight: 800;
+    color: #FABE4C;
+}
+
+.pro1_price button i{
+    margin-right: 15px;
+}
+
+.buy{
+    width: 60%;
+    height: 80%;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.buy:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    box-shadow: 0px -4px 9.8px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* pro-2 */
+.pro-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 30%;
+    border: 0px solid black;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.pro-2 div{
+    width: 90%;
+    border: 0px solid black;
+}
+
+.pro2_img{
+    height: 70%;
+    background-image: url(images/pro2_img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin-top: 10px;
+
+}
+
+.pro2_details{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+
+.main_body { 
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+.pro2_price{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.pro2_price p{
+    font-size: 32px;
+    font-weight: 800;
+    color: #FABE4C;
+}
+
+.pro2_price button i{
+    margin-right: 15px;
+}
+
+.buy{
+    width: 60%;
+    height: 80%;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.buy:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    box-shadow: 0px -4px 9.8px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* pro-3 */
+
+.pro-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 30%;
+    border: 0px solid black;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.pro-3 div{
+    width: 90%;
+    border: 0px solid black;
+}
+
+.pro3_img{
+    height: 70%;
+    background-image: url(images/pro3_img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin-top: 10px;
+
+}
+
+.pro3_details{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+
+.main_body { 
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+.pro3_price{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.pro3_price p{
+    font-size: 32px;
+    font-weight: 800;
+    color: #FABE4C;
+}
+
+.pro3_price button i{
+    margin-right: 15px;
+}
+
+.buy{
+    width: 60%;
+    height: 80%;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.buy:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    box-shadow: 0px -4px 9.8px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.men-sec{
+    width: 1200px;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.men-sec h1{
+    margin-bottom: 25px;
+    font-size: 45px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    color: #363958;
+    margin-left: 20px;
+    font-weight: 550;
+}
+
+.pro4_img{
+    height: 70%;
+    background-image: url(images/pro4_img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin-top: 10px;
+
+}
+
+.pro5_img{
+    height: 70%;
+    background-image: url(images/pro5_img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin-top: 10px;
+
+}
+
+.pro6_img{
+    height: 70%;
+    background-image: url(images/pro6_img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin-top: 10px;
+
+}
+
+
+
+
+/* last-part */
+
+.main_last{
+    border: 0px solid black;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about{
+    height: 710px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.a1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 25%;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    
+}
+
+.alogo1{
+    background-image: url(icons/house.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    margin-left: 15px;
+    position: relative;
+    top:55px ;
+}
+.alogo2{
+    background-image: url(icons/box.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    margin-left: 15px;
+    position: relative;
+    top:55px ;
+}
+
+.alogo3{
+    background-image: url(icons/question.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    margin-left: 15px;
+    position: relative;
+    top:55px ;
+}
+
+
+.atext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Roboto', sans-serif;
+}
+
+.atext1{
+    font-size: 36px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #363958;
+}
+
+.atext2{
+    font-size: 22px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image{
+    border: 0px solid black;
+    width: 500px;
+    height: 600px;
+    background-image: url(images/shopping.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
